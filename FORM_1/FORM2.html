@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Formulario 2" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!-- modify this form HTML and place wherever you want your form -->
+  <form 
+  action="https://formspree.io/f/myyawlpv" 
+  method="POST"
+  >
+        <label for="fecha">Escriba la fecha</label><br>
+        <input type="date" id="fecha" name="fecha"><br>
+
+        <label for="nombre"> Escriba su nombre</label><br>
+        <input type="text" id="nombre" name="nombre"><br>
+
+        <label for="apellido"> Escriba su apellido</label><br>
+        <input type="text" id="apellido" name="apellido"><br>
+
+        <label for="password">Escriba su password</label><br>
+        <input type="password" id="password" name="password"><br>
+
+        <label for="sexo">Escriba su sexo: </label><br>
+
+        <input type="radio" id="hombre" name="sexo" value="hombre">
+        <label for="hombre">Hombre</label>
+
+        <input type="radio" id="mujer" name="sexo" value="mujer">
+        <label for="mujer">Mujer</label><br><br>
+
+        <label for="color">Escoja su color favorito</label><br>
+        <input type="color" id="color" name="color"><br>
+<!-- your other form fields go here -->
+        <button type="submit">Send</button>
+
+  </form>
+
+</body>
+</html>
